@@ -1,8 +1,8 @@
 === wpMandrill ===
-Contributors: MC_Will
+Contributors: MC_Will, Mark Nelson
 Tags: mandrill, mailchimp, transactional email, email, email reliability, smtp, wp_mail, email templates
 Requires at least: 3.0
-Tested up to: 3.8
+Tested up to: 4.3
 Stable tag: trunk
 License: GPLv2
 
@@ -107,6 +107,10 @@ If your account has more than 20 senders registered or more than 40 tags used, t
 4. Dashboard widget Settings
 
 == Changelog ==
+= 1.34 =
+* ADDED: Support for multiple CC to types
+* ADDED: Support for multiple BCC to types
+
 = 1.33 =
 * ADDED: Logging messages to trace a bug where the stats are not getting updated 
 * FIXED: Order of preference for tags.
