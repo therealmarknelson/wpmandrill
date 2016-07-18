@@ -1900,8 +1900,8 @@ JS;
                 }
                 
             // Letting user to filter/change the message payload
-            	$message['from_email']  = apply_filters('wp_mail_from', $message['from_email']);
-				$message['from_name']	= apply_filters('wp_mail_from_name', $message['from_name']);
+//            	$message['from_email']  = apply_filters('wp_mail_from', $message['from_email']);
+//				$message['from_name']	= apply_filters('wp_mail_from_name', $message['from_name']);
                 $message  = apply_filters('mandrill_payload', $message);
                 
                 // if user doesn't want to process this email by wp_mandrill, so be it.
